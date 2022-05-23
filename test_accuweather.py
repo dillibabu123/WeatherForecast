@@ -4,7 +4,7 @@ import smtplib, ssl
 
 base_url="https://www.accuweather.com/en/in/bengaluru/204108/weather-forecast/204108"
 # declare and initialize driver variable
-driver = webdriver.Chrome(executable_path="C:\Auto_Jenkins_Git\drivers\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:\Auto_Jenkins_Git\WeatherForecast\drivers\chromedriver.exe")
 driver.maximize_window()
 driver.implicitly_wait(3) 
 driver.get(base_url)
