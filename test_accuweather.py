@@ -19,7 +19,7 @@ windGuests = driver.find_element_by_xpath("//div/span[text()='Wind Gusts']/follo
 temp = curentTemp.encode('ascii', 'ignore').decode('ascii')
 
 
-port = 465  # For SSL
+port = 465  # For SSL ssa
 smtp_server = "smtp.gmail.com"
 sender_email = "dillibabu.aragonda@gmail.com"  # Enter your address
 receiver_email = "dillibabu.aragonda@Dell.com"  # Enter receiver address
