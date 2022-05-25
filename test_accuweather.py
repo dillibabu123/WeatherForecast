@@ -22,7 +22,7 @@ temp = curentTemp.encode('ascii', 'ignore').decode('ascii')
 port = 465  # For SSL ssa
 smtp_server = "smtp.gmail.com"
 sender_email = "dillibabu.aragonda@gmail.com"  # Enter your address
-receiver_email = "dillibabu.aragonda@Dell.com"  # Enter receiver address
+receiver_email = "sumanjit.saha@Dell.com"  # Enter receiver address
 password = "qmevstitvzxdmwli"
 
 message = """\
