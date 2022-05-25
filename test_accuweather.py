@@ -22,14 +22,14 @@ temp = curentTemp.encode('ascii', 'ignore').decode('ascii')
 port = 465  # For SSL ssa
 smtp_server = "smtp.gmail.com"
 sender_email = "dillibabu.aragonda@gmail.com"  # Enter your address
-receiver_email = "sumanjit.saha@Dell.com"  # Enter receiver address
+receiver_email = "Sumanjit.Saha@Dell.com"  # Enter receiver address
 password = "qmevstitvzxdmwli"
 
 message = """\
-
 Subject: Bangalore Weather forecast from Dilli Python code
+To: Sumanjit.Saha@Dell.com
 
-Bengaluru, Karnataka Weather forecast from Accuweather.com. This mail is sent from Python code\n
+Bengaluru, Karnataka Weather forecast from Accuweather.com. This mail is sent from Python code.\n
 Current Date: """ + date + """\n
 Current Time: """ + curentTime + """\n
 Curent Temp: """ + str(temp) + """ \n
