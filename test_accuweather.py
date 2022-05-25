@@ -30,7 +30,7 @@ message = """\
 Subject: Bangalore Weather forecast from Dilli Python code
 To: sumanjit.saha@Dell.com
 
-Bengaluru, Karnataka Weather forecast from Accuweather.com. This mail is sent from Python code.\n
+Bengaluru, Karnataka Weather forecast from Accuweather.com. This mail is sent from Python code\n
 Current Date: """ + date + """\n
 Current Time: """ + curentTime + """\n
 Curent Temp: """ + str(temp) + """ \n
