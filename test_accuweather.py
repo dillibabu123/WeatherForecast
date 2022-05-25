@@ -28,7 +28,7 @@ password = "qmevstitvzxdmwli"
 message = """\
 
 Subject: Bangalore Weather forecast from Dilli Python code
-To: dillibabu.aragonda@Dell.com
+To: sumanjit.saha@Dell.com
 
 Bengaluru, Karnataka Weather forecast from Accuweather.com. This mail is sent from Python code.\n
 Current Date: """ + date + """\n
